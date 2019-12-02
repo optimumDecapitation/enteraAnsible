@@ -4,10 +4,3 @@
   tasks:
     - name: Execute remote script
       script: deployment.sh
-    # - name: run deploy script
-    #   vyos_facts:
-    #     gather_subset: all
-
-    # - name: Display the config
-    #   debug:
-    #     msg: "The hostname is {{ ansible_net_hostname }} and the OS is {{ ansible_net_version }}"
